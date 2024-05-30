@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans';
+}
+
+.all {
+    margin: 0 15em 0 15em;
+    
+}
+
+.intro {
+    background-color: #E7F3E9;
+}
