@@ -36,11 +36,16 @@ body {
     }
 
     .number {
-        color : #1DAC9B
+        color : #1DAC9B;
+        font-size: 2em;
+        font-weight: bold;
+    }
+
+    .title {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
     }
 }
 
-.title {
-    display: flex;
-    flex-direction: row;
-}
