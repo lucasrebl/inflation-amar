@@ -41,6 +41,11 @@ header {
     display: none;
 }
 
+.headercontent {
+    display: none;
+    /* Assurez-vous que le menu est caché par défaut */
+}
+
 @media screen and (max-width: 700px) {
     .mobile {
         display: contents;
@@ -119,4 +124,14 @@ header {
             transform: translateY(-10%);
         }
     }
+
+
+}
+
+
+footer {
+    margin-top: 10em;
+    align-items: flex-end;
+    background-color: red;
+    height: 8em;
 }
