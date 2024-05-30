@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactez Amar</title>
+    <link href='https://fonts.googleapis.com/css?family=DM Sans' rel='stylesheet'>
+    <link href="/styles/contact.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+    </header>
+
+    <main>
+        <section aria-labelledby="contact-title">
+            <h1>Besoin d'informations?<br>Contactez-nous!</h1>
+            <form method="POST" id="contact-form">
+                <fieldset>
+                    <label for="from_name">Nom et Prénom</label>
+                    <input type="text" id="from_name" name="from_name" required>
+                </fieldset>
+
+                <fieldset>
+                    <label for="from_email">Email</label>
+                    <input type="email" id="from_email" name="from_email" required>
+                </fieldset>
+
+                <fieldset>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </fieldset>
+
+                <button type="submit">Soumettre le formulaire</button>
+            </form>
+        </section>
+
+        <figure>
+            <img src="/images/asset14.png" alt="deux mains qui se serrent" />
+        </figure>
+    </main>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="/js/contact.js"></script>
+</body>
+
+</html>
