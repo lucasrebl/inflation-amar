@@ -56,7 +56,7 @@ textarea {
     justify-content: center;
 }
 
-button {
+.button-form {
     background-color: #1dac9b;
     color: #ffffff;
     font-family: 'DM Sans';
@@ -70,7 +70,7 @@ button {
     margin-left: 2em;
 }
 
-button:hover {
+.button-form:hover {
     background-color: #1d1e20;
 }
 
