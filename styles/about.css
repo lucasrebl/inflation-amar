@@ -40,7 +40,7 @@ h6 {
 
 .second #text {
     font-size: 18px;
-    max-width: 30em;
+    min-width: 20em;
 }
 
 .second aside {
@@ -66,16 +66,9 @@ h6 {
 }
 
 .Default #img {
-    /* width: 16em; */
     display: flex;
     flex-direction: column;
     right: 1em;
-    /* gap: 5em; */
-}
-
-.third {
-    /* display: flex; */
-    /* flex-direction: column; */
 }
 
 .third #title {
@@ -87,8 +80,6 @@ h6 {
 
 .fourth {
     display: flex;
-    /* justify-content: center; */
-    /* align-items: space-between; */
 }
 
 .fourth #content {
@@ -101,13 +92,125 @@ h6 {
 }
 
 .fourth section img {
-    /* display: flex; */
     width: 25%;
     height: 25%;
 }
 
 .fourth aside img {
-    /* display: flex; */
     width: 25%;
     height: 25%;
+}
+
+.fourth aside #content {
+    flex-direction: row-reverse;
+}
+
+.third #title img {
+    margin-top: 3em;
+    /* width: 25em; */
+}
+
+@media screen and (max-width: 1023px) {
+    .default p {
+        font-size: 12px;
+    }
+
+    .Default img {
+        max-width: 15em;
+    }
+
+    .second img {
+        max-width: 15em;
+    }
+
+    .second #text {
+        font-size: 12px;
+        min-width: 15em;
+        /* margin-left: 5em; */
+    }
+
+    .second aside {
+        font-size: 12px;
+    }
+
+    h6 {
+        font-size: 18px;
+    }
+
+    .third #title img {
+        margin-top: 7em;
+        width: 25em;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    .second {
+        gap: 2em;
+    }
+
+    .fourth {
+        gap: 5em;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width : 800px) {
+    #amar {
+        margin-left: -6em;
+    }
+
+    h1 {
+        min-width: 12em;
+    }
+
+    .default {
+        margin-left: -6em;
+    }
+
+    .default p {
+        min-width: 15em;
+    }
+
+    .Default img {
+        width: 10em;
+    }
+
+    .Default {
+        margin-left: 5em;
+        gap: 2em;
+    }
+
+    .second img {
+        width: 10em;
+    }
+
+    .second #text {
+        margin-left: -10em;
+    }
+
+    h6 {
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 16px;
+    }
+
+    .fourth #content img {
+        width: 3em;
+    }
+
+    .fourth #content p {
+        min-width: 4em;
+    }
+
+    .fourth {
+        display: flex;
+        justify-content: center;
+    }
+
+    .third #title h6 {
+        min-width: 20em;
+    }
 }
