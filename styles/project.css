@@ -8,9 +8,20 @@ body {
 .intro {
     background-color: #E7F3E9;
 
-    p, h1, img {
-        margin: 0 15em 0 15em;
+    p,
+    h1,
+    img {
+        margin: 0 15em 0.5em 15em;
+    }
 
+    .img {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .img img {
+        max-width: 10em;
     }
 }
 
@@ -18,35 +29,128 @@ body {
     background-color: #ffffff;
     display: flex;
     flex-direction: row;
+    justify-content: center;
 
-    .left, .right {
-        margin: 0 15em 0 15em;
+    .left,
+    .right {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
 
+        .article {
+            margin-bottom: 1em;
+        }
+
     }
 
     .right {
-        margin-top: 10em;
+        margin: 5em 15em 0 5em;
     }
 
     .left {
-        margin-bottom: 10em;
+        margin: 0 5em 5em 15em;
     }
 
     .number {
-        color : #1DAC9B;
+        color: #1DAC9B;
         font-size: 2em;
         font-weight: bold;
+        padding: 0 1em 0 0;
     }
 
     .title {
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: space-around;
+        justify-content: flex-start;
         font-weight: bold;
     }
 }
 
+
+
+
+/* Écran de petite taille (jusqu'à 600px) */
+@media (max-width: 600px) {
+
+    .intro {
+        background-color: #E7F3E9;
+
+        p,
+        h1,
+        img {
+            margin: 0 2em 0.5em 2em;
+
+        }
+
+        .img {
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+        }
+    }
+
+    .organisation {
+        display: flex;
+        justify-content: center;
+
+        .left,
+        .right {
+            margin: 0 2em 0 2em;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            flex: 0 1 20em;
+        }
+
+        .right {
+            margin-top: 10em;
+        }
+
+        .left {
+            margin-bottom: 10em;
+        }
+    }
+}
+
+/* Écran de taille moyenne (entre 600px et 900px) */
+@media (min-width: 600px) and (max-width: 900px) {
+    .intro {
+        background-color: #E7F3E9;
+
+        p,
+        h1,
+        img {
+            margin: 0 2em 0 2em;
+
+        }
+
+        .img {
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+        }
+    }
+
+    .organisation {
+        display: flex;
+        justify-content: center;
+
+        .left,
+        .right {
+            margin: 0 2em 0 2em;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            flex: 0 1 20em;
+        }
+
+        .right {
+            margin-top: 10em;
+        }
+
+        .left {
+            margin-bottom: 10em;
+        }
+    }
+}
