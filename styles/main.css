@@ -6,15 +6,15 @@ body {
 }
 
 p {
-    font-size: 24px;
+    font-size: 1.5em;
 }
 
 h1 {
-    font-size: 64px;
+    font-size: 2.75em;
 }
 
 h6 {
-    font-size: 36px;
+    font-size: 2em;
 }
 
 .Title {
@@ -25,6 +25,11 @@ h6 {
     background-color: #FFFFFF;
     min-width: 100%;
     text-align: center;
+
+    h1, img {
+        margin: 0 10em 2em 10em;
+        
+    }
 }
 
 .First {
@@ -68,7 +73,7 @@ main {
 }
 
 .Third section h6 {
-    margin-left: 0em;
+    margin-top : 0;
 }
 
 .Fourth {
@@ -84,5 +89,5 @@ main {
 }
 
 .Fourth section h6 {
-    margin-left: 0em;
+    margin-top: 0;
 }
