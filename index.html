@@ -6,8 +6,33 @@
     <title>AMAR - Mobilité, Accessibilité et Réhabilitation | Association pour la mobilité, l'accessibilité et la réhabilitation</title>
     <meta name="description" content="Faites une différence avec notre association à but non lucratif - Don de matériel médical pour enfants avec handicap moteur au Salvador">
     <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/template.css">
 </head>
 <body>
+    <header>
+        <button tabindex="1" class="logo"><a href="/"><img src="/images/image.png" alt=""></a></button>
+        <button tabindex="2" class="header"><a href="/pages/project.html">Projet</a></button>
+        <button tabindex="3" class="header"><a href="/pages/about.html">A Propos</a></button>
+        <button tabindex="4" class="header"><a href="/pages/contact.html">Contact</a></button>
+        <div id="google_translate_element" tabindex="5" role="button" aria-label="Sélectionner la langue"></div>
+        <script type="text/javascript">
+            function googleTranslateElementInit() {
+                new google.translate.TranslateElement({ pageLanguage: 'fr', layout: google.translate.TranslateElement.InlineLayout.SIMPLE }, 'google_translate_element');
+            }
+        </script>
+        <script type="text/javascript"
+            src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    </header>
+    <header class="mobile">
+        <button tabindex="1" class="logo"><a href="#HOME"><img src="/images/image.png" alt=""></a></button>
+        <button tabindex="2" class="burgermenu"><img src="/images/burgerbar.png" alt="Menu Burger"></button>
+    </header>
+    <nav class="headercontent">
+        <button tabindex="1" class="header"><a href="/pages/project.html">Projet</a></button>
+        <button tabindex="2" class="header"><a href="/pages/about.html">A Propos</a></button>
+        <button tabindex="3" class="header"><a href="/pages/contact.html">Contact</a></button>
+        <button tabindex="4" class="header">Langue</button>
+    </nav>
     <Main>
         <section class="Title">
             <h1>           
@@ -60,4 +85,6 @@
     </Main>
 
 </body>
+<script src="/js/index.js"></script>
+<script src="/js/translate.js"></script>
 </html>

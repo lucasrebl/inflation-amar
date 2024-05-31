@@ -6,15 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/project.css">
     <link href='https://fonts.googleapis.com/css?family=DM Sans' rel='stylesheet'>
+    <link rel="stylesheet" href="/styles/template.css">
     <title>Accès à la mobilité pour les enfants au Salvador</title>
 </head>
 
 <body>
-    <header tabindex="-1">
-        <p>Encore vide à remplir</p>
+
+    <header>
+        <button tabindex="1" class="logo"><a href="/"><img src="/images/image.png" alt=""></a></button>
+        <button tabindex="2" class="header"><a href="/pages/project.html">Projet</a></button>
+        <button tabindex="3" class="header"><a href="/pages/about.html">A Propos</a></button>
+        <button tabindex="4" class="header"><a href="/pages/contact.html">Contact</a></button>
+        <div id="google_translate_element" tabindex="5" role="button" aria-label="Sélectionner la langue"></div>
+        <script type="text/javascript">
+            function googleTranslateElementInit() {
+                new google.translate.TranslateElement({ pageLanguage: 'fr', layout: google.translate.TranslateElement.InlineLayout.SIMPLE }, 'google_translate_element');
+            }
+        </script>
+        <script type="text/javascript"
+            src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     </header>
+    <header class="mobile">
+        <button tabindex="1" class="logo"><a href="#HOME"><img src="/images/image.png" alt=""></a></button>
+        <button tabindex="2" class="burgermenu"><img src="/images/burgerbar.png" alt="Menu Burger"></button>
+    </header>
+    <nav class="headercontent">
+        <button tabindex="1" class="header"><a href="/pages/project.html">Projet</a></button>
+        <button tabindex="2" class="header"><a href="/pages/about.html">A Propos</a></button>
+        <button tabindex="3" class="header"><a href="/pages/contact.html">Contact</a></button>
+        <button tabindex="4" class="header">Langue</button>
+    </nav>
     <div class="all">
-        <section class="intro" tabindex="1">
+        <section class="intro" tabindex="6">
             <h1>Accès à la mobilité pour les enfants au Salvador</h1>
             <p>Chaque année, au Salvador, plus de 3000 enfants ayant des besoins médicaux spécifiques bénéficient d'un
                 suivi
@@ -35,7 +58,7 @@
 
         <section class="organisation">
             <article class="left">
-                <article class="article" tabindex="2">
+                <article class="article" tabindex="7">
                     <div class="title">
                         <p class="number">1</p>
                         <p class="subtitle">L'INVENTAIRE</p>
@@ -44,7 +67,7 @@
                         et
                         voir ceux qu’il faut reconditionner.</p>
                 </article>
-                <article class="article" tabindex="4">
+                <article class="article" tabindex="8">
                     <div class="title">
                         <p class="number">3</p>
                         <p class="subtitle">LE VOYAGE</p>
@@ -52,7 +75,7 @@
                     <p class="text">Les appareillages prennent le large et pendant 1 mois ils traversent
                         l’atlantique. Hâte d’arriver à destination!</p>
                 </article>
-                <article class="article" tabindex="6">
+                <article class="article" tabindex="9">
                     <div class="title">
                         <p class="number">5</p>
                         <p class="subtitle">L’INSPECTION</p>
@@ -63,7 +86,7 @@
                 </article>
             </article>
             <article class="right">
-                <article class="article" tabindex="3">
+                <article class="article" tabindex="10">
                     <div class="title">
                         <p class="number">2</p>
                         <p class="subtitle">LA COLLECTE</p>
@@ -71,7 +94,7 @@
                     <p class="text">Grâce à l’aide de nos partenaires en logistique, le transporteur vient chercher
                         les appareillages dans les centres médicaux.</p>
                 </article>
-                <article class="article" tabindex="5">
+                <article class="article" tabindex="11">
                     <div class="title">
                         <p class="number">4</p>
                         <p class="subtitle">LE VOYAGE</p>
@@ -79,7 +102,7 @@
                     <p class="text">Les appareillages prennent le large et pendant 1 mois ils traversent
                         l’atlantique. Hâte d’arriver à destination!</p>
                 </article>
-                <article class="article" tabindex="7">
+                <article class="article" tabindex="12">
                     <div class="title">
                         <p class="number">6</p>
                         <p class="subtitle">LA DISTRIBUTION</p>
@@ -92,8 +115,18 @@
         </section>
     </div>
     <footer>
-        <p>Encore vide, à remplir</p>
+        <h4 tabindex="13">Soutenez-nous !</h4>
+        <p tabindex="14">Vous voulez faire partie de l'aventure ?</p>
+        <button aria-label="Faire un don pour soutenir notre association"  id="donButton"  tabindex="15">Faire un don</button>
+        <div class="logo-footer">
+            <img tabindex="16" src="../images/image.png" alt="logo amar représentant un coeur">
+            <p>Association pour la Mobilité, l'Accessibilité et la Réhabilitation</p>
+        </div>
+        <p><a href="/pages/contact.html">contact@amar-handicap.org</a></p>
+
     </footer>
 </body>
+<script src="/js/index.js"></script>
+<script src="/js/translate.js"></script>
 
 </html>

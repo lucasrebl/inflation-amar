@@ -12,10 +12,10 @@
 
 <body>
     <header>
-        <button tabindex="1" class="logo" href="#HOME"><img src="/images/asset 9.png" alt=""></button>
-        <button tabindex="2" class="header" href="#Projet">Projet </button>
-        <button tabindex="3" class="header" href="#Apropos">A propos</button>
-        <button tabindex="4" class="header" href="#Contact">Contact</button>
+        <button tabindex="1" class="logo"><a href="/"><img src="/images/image.png" alt=""></a></button>
+        <button tabindex="2" class="header"><a href="/pages/project.html">Projet</a></button>
+        <button tabindex="3" class="header"><a href="/pages/about.html">A Propos</a></button>
+        <button tabindex="4" class="header"><a href="/pages/contact.html">Contact</a></button>
         <div id="google_translate_element" tabindex="5" role="button" aria-label="Sélectionner la langue"></div>
         <script type="text/javascript">
             function googleTranslateElementInit() {
@@ -26,16 +26,15 @@
             src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     </header>
     <header class="mobile">
-        <button tabindex="1" class="logo"><a href="#HOME"><img src="/images/asset 9.png" alt=""></a></button>
+        <button tabindex="1" class="logo"><a href="#HOME"><img src="/images/image.png" alt=""></a></button>
         <button tabindex="2" class="burgermenu"><img src="/images/burgerbar.png" alt="Menu Burger"></button>
     </header>
     <nav class="headercontent">
-        <button tabindex="1" class="header" href="#Projet">Projet</button>
-        <button tabindex="2" class="header" href="#Apropos">A propos</button>
-        <button tabindex="3" class="header" href="#Contact">Contact</button>
-        <div class="google_translate_element" tabindex="4"></div>
+        <button tabindex="1" class="header"><a href="/pages/project.html">Projet</a></button>
+        <button tabindex="2" class="header"><a href="/pages/about.html">A Propos</a></button>
+        <button tabindex="3" class="header"><a href="/pages/contact.html">Contact</a></button>
+        <button tabindex="4" class="header">Langue</button>
     </nav>
-
     <main>
         <section aria-labelledby="contact-title">
             <h1 tabindex="6">Besoin d'informations?<br>Contactez-nous!</h1>
@@ -69,6 +68,17 @@
             <img src="/images/asset14.png" alt="deux mains qui se serrent" />
         </figure>
     </main>
+    <footer>
+        <h4 tabindex="15">Soutenez-nous !</h4>
+        <p tabindex="16">Vous voulez faire partie de l'aventure ?</p>
+        <button aria-label="Faire un don pour soutenir notre association"  id="donButton"  tabindex="17">Faire un don</button>
+        <div class="logo-footer">
+            <img tabindex="18" src="../images/image.png" alt="logo amar représentant un coeur">
+            <p>Association pour la Mobilité, l'Accessibilité et la Réhabilitation</p>
+        </div>
+        <p><a href="/pages/contact.html">contact@amar-handicap.org</a></p>
+
+    </footer>
     <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
     <script src="/js/contact.js"></script>
     <script src="/js/index.js"></script>
