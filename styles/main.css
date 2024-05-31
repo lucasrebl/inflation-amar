@@ -26,9 +26,10 @@ h6 {
     min-width: 100%;
     text-align: center;
 
-    h1, img {
+    h1,
+    img {
         margin: 0 10em 2em 10em;
-        
+
     }
 }
 
@@ -73,7 +74,7 @@ main {
 }
 
 .Third section h6 {
-    margin-top : 0;
+    margin-top: 0;
 }
 
 .Fourth {
@@ -90,4 +91,78 @@ main {
 
 .Fourth section h6 {
     margin-top: 0;
+}
+
+
+@media (max-width: 600px) {
+    .Title {
+
+        h1,
+        img {
+            margin: 0 2em 1em 2em;
+        }
+
+        img {
+            max-width: 15em;
+
+        }
+    }
+
+    p {
+        width: 10em;
+        flex: 0 1 10em;
+    }
+
+    img {
+        max-width: 10em;
+    }
+
+    section {
+        img, h6 {
+            margin: 1em;
+        }
+    }
+
+    .Third {
+
+        h6,
+        img {
+            margin: 0 0 0 4em;
+        }
+
+        img {
+            max-width: 20em;
+
+        }
+
+        p{
+            margin: 0 -6em 0 0;
+        }
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+    .Title {
+
+        h1,
+        img {
+            margin: 0 2em 1em 2em;
+        }
+
+        img {
+            max-width: 20em;
+
+        }
+    }
+
+    p {
+        width: 15em;
+        flex: 0 1 20em;
+    }
+
+    img {
+        max-width: 20em;
+    }
+
+    
 }
