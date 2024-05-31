@@ -4,6 +4,11 @@ body {
     font-family: 'DM Sans';
 }
 
+a {
+    text-decoration: none;
+    color: #5C2483;
+}
+
 header {
     display: flex;
     flex-wrap: wrap;
@@ -43,7 +48,7 @@ header {
 
 }
 
-.header:hover{
+.header:hover {
     border-bottom: 3px solid #5C2483;
 
 }
@@ -147,17 +152,19 @@ footer {
     height: 40em;
     padding: 0.2em;
 
-    h4{
+    h4 {
         color: #5C2483;
         font-size: 2.5em;
         text-align: center;
     }
-    p{
+
+    p {
         color: #5C2483;
         font-size: 2em;
         text-align: center;
     }
-    button{
+
+    button {
         width: 10em;
         height: 2.5em;
         background-color: #1DAC9B;
@@ -166,27 +173,31 @@ footer {
         color: white;
         font-size: 37px;
     }
-    #donButton:hover{
+
+    #donButton:hover {
         background-color: #E7F3E9;
         color: #1DAC9B;
         border: #1DAC9B 1px solid;
     }
-    a{
+
+    a {
         text-decoration: none;
         font-style: normal;
     }
-    
-    .logo-footer{
+
+    .logo-footer {
         display: flex;
         flex-direction: row;
         align-items: baseline;
         justify-content: flex-start;
         margin-top: 2em;
-        p{
-        font-size: 1.2em;
+
+        p {
+            font-size: 1.2em;
 
         }
-        img{
+
+        img {
             width: 7em;
 
         }
