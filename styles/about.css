@@ -1,0 +1,113 @@
+body {
+    background-color: #ffffff;
+    font-family: "DM Sans";
+}
+
+main {
+    margin: 0 15em 0 15em;
+    color: #5C2483;
+}
+
+h1 {
+    text-align: center;
+    font-size: 64px;
+}
+
+h6 {
+    width: fit-content;
+    height: 1em;
+    font-size: 24px
+}
+
+.default {
+    display: flex;
+    flex-direction: column;
+}
+
+.default p {
+    display: flex;
+    justify-content: start;
+    max-width: 30em;
+    font-size: 18px;
+}
+
+.second {
+    margin-top: 3em;
+    display: flex;
+    text-align: center;
+    gap: 15em;
+}
+
+.second #text {
+    font-size: 18px;
+    max-width: 30em;
+}
+
+.second aside {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.Default {
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+}
+
+.Default #text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 10em;
+
+}
+
+.Default #img {
+    /* width: 16em; */
+    display: flex;
+    flex-direction: column;
+    right: 1em;
+    /* gap: 5em; */
+}
+
+.third {
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+.third #title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fourth {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: space-between; */
+}
+
+.fourth #content {
+    display: flex;
+    margin-top: 3em;
+}
+
+.fourth #content p {
+    padding: 0.3em;
+}
+
+.fourth section img {
+    /* display: flex; */
+    width: 25%;
+    height: 25%;
+}
+
+.fourth aside img {
+    /* display: flex; */
+    width: 25%;
+    height: 25%;
+}
