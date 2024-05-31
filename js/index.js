@@ -23,3 +23,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         }
     });
 });
+
+document.getElementById('donButton').addEventListener('click', function () {
+    window.location.href = 'https://www.helloasso.com/associations/association-pour-la-mobilite-l-accessibilite-et-la-rehabilitation/formulaires/1';
+});
