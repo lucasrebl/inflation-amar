@@ -68,9 +68,6 @@ body {
 }
 
 
-
-
-/* Écran de petite taille (jusqu'à 600px) */
 @media (max-width: 600px) {
 
     .intro {
@@ -113,7 +110,6 @@ body {
     }
 }
 
-/* Écran de taille moyenne (entre 600px et 900px) */
 @media (min-width: 600px) and (max-width: 900px) {
     .intro {
         background-color: #E7F3E9;
